@@ -12,6 +12,8 @@
 		4E3469531EE912A400248C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3469511EE912A400248C07 /* Main.storyboard */; };
 		4E3469551EE912A400248C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3469541EE912A400248C07 /* Assets.xcassets */; };
 		4E3469581EE912A400248C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3469561EE912A400248C07 /* LaunchScreen.storyboard */; };
+		4E9037F61EEA836D009C743A /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9037F51EEA836D009C743A /* Atoms.swift */; };
+		4E9037F81EEA91B5009C743A /* Molecules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9037F71EEA91B5009C743A /* Molecules.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		4E3469571EE912A400248C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E3469591EE912A400248C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E3469611EE913D600248C07 /* SceneKit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SceneKit.md; sourceTree = "<group>"; };
+		4E9037F41EEA3471009C743A /* Raywenderlich_SceneDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Raywenderlich_SceneDemo.md; sourceTree = "<group>"; };
+		4E9037F51EEA836D009C743A /* Atoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atoms.swift; sourceTree = "<group>"; };
+		4E9037F71EEA91B5009C743A /* Molecules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Molecules.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 				4E3469601EE913D600248C07 /* Markdown */,
 				4E34694D1EE912A400248C07 /* AppDelegate.swift */,
 				4E34694F1EE912A400248C07 /* ViewController.swift */,
+				4E9037F51EEA836D009C743A /* Atoms.swift */,
+				4E9037F71EEA91B5009C743A /* Molecules.swift */,
 				4E3469511EE912A400248C07 /* Main.storyboard */,
 				4E3469541EE912A400248C07 /* Assets.xcassets */,
 				4E3469561EE912A400248C07 /* LaunchScreen.storyboard */,
@@ -70,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				4E3469611EE913D600248C07 /* SceneKit.md */,
+				4E9037F41EEA3471009C743A /* Raywenderlich_SceneDemo.md */,
 			);
 			path = Markdown;
 			sourceTree = "<group>";
@@ -145,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9037F61EEA836D009C743A /* Atoms.swift in Sources */,
 				4E3469501EE912A400248C07 /* ViewController.swift in Sources */,
 				4E34694E1EE912A400248C07 /* AppDelegate.swift in Sources */,
+				4E9037F81EEA91B5009C743A /* Molecules.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +332,7 @@
 				4E34695E1EE912A400248C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
