@@ -11,6 +11,7 @@ import SceneKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sceneLabel: UILabel!
     @IBOutlet weak var sceneView: SCNView!
     
     var geometryNode: SCNNode = SCNNode()
@@ -33,8 +34,29 @@ class ViewController: UIViewController {
     }
     
     @IBAction func segmentedControlChanged(_ sender: UISegmentedControl) {
+        geometryNode.removeFromParentNode()
+        currentAngle = 0.0
         
+        var label = ""
+        switch sender.selectedSegmentIndex {
+        case 0:
+            label = "Atoms"
+            geometryNode = Atoms.allAtoms()
+        case 1:
+            label = "Methane\n(Natural Gas)"
+            geometryNode = Molecules.methaneMolecule()
+        case 2:
+            label = "Ethanol\n(Alcohol)"
+            geometryNode = Molecules.ethanoMolecule()
+        case 3:
+            label = "Ploytetrafluoroethylene\n(Teflon)"
+            geometryNode = Molecules.ptfeMolecule()
+        default:
+            break
+        }
         
+        sceneLabel.text = label
+        sceneView.scene!.rootNode.addChildNode(geometryNode)
     }
     
     func setupScene() {

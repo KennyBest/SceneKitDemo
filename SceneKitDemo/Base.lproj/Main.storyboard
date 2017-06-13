@@ -62,6 +62,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="sceneLabel" destination="VMV-45-hY9" id="TPj-rh-co6"/>
                         <outlet property="sceneView" destination="owL-mU-aaQ" id="J3h-pK-nvB"/>
                     </connections>
                 </viewController>
