@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E2DA1D61EF1096900451A84 /* SCNView.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SCNView.md; sourceTree = "<group>"; };
 		4E34694A1EE912A400248C07 /* SceneKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E34694D1EE912A400248C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E34694F1EE912A400248C07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 				4E3469611EE913D600248C07 /* SceneKit.md */,
 				4E9037F41EEA3471009C743A /* Raywenderlich_SceneDemo.md */,
 				4E76735A1EEFCA8F0095E61C /* SCNScene.md */,
+				4E2DA1D61EF1096900451A84 /* SCNView.md */,
 			);
 			path = Markdown;
 			sourceTree = "<group>";
