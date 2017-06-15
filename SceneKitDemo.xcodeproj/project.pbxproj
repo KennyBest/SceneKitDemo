@@ -12,6 +12,8 @@
 		4E3469531EE912A400248C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3469511EE912A400248C07 /* Main.storyboard */; };
 		4E3469551EE912A400248C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3469541EE912A400248C07 /* Assets.xcassets */; };
 		4E3469581EE912A400248C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3469561EE912A400248C07 /* LaunchScreen.storyboard */; };
+		4E7889221EF21EF3006AFC29 /* SceneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7889211EF21EF3006AFC29 /* SceneTableViewController.swift */; };
+		4E7889241EF22256006AFC29 /* KBSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7889231EF22256006AFC29 /* KBSceneViewController.swift */; };
 		4E9037F61EEA836D009C743A /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9037F51EEA836D009C743A /* Atoms.swift */; };
 		4E9037F81EEA91B5009C743A /* Molecules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9037F71EEA91B5009C743A /* Molecules.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +29,9 @@
 		4E3469591EE912A400248C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E3469611EE913D600248C07 /* SceneKit.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SceneKit.md; sourceTree = "<group>"; };
 		4E76735A1EEFCA8F0095E61C /* SCNScene.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SCNScene.md; sourceTree = "<group>"; };
+		4E7889211EF21EF3006AFC29 /* SceneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTableViewController.swift; sourceTree = "<group>"; };
+		4E7889231EF22256006AFC29 /* KBSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBSceneViewController.swift; sourceTree = "<group>"; };
+		4E7889251EF233C2006AFC29 /* SCNNode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SCNNode.md; sourceTree = "<group>"; };
 		4E9037F41EEA3471009C743A /* Raywenderlich_SceneDemo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Raywenderlich_SceneDemo.md; sourceTree = "<group>"; };
 		4E9037F51EEA836D009C743A /* Atoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atoms.swift; sourceTree = "<group>"; };
 		4E9037F71EEA91B5009C743A /* Molecules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Molecules.swift; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 		4E34694C1EE912A400248C07 /* SceneKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4E7889201EF21EDB006AFC29 /* ViewControllers */,
 				4E3469601EE913D600248C07 /* Markdown */,
 				4E34694D1EE912A400248C07 /* AppDelegate.swift */,
 				4E34694F1EE912A400248C07 /* ViewController.swift */,
@@ -82,8 +88,18 @@
 				4E9037F41EEA3471009C743A /* Raywenderlich_SceneDemo.md */,
 				4E76735A1EEFCA8F0095E61C /* SCNScene.md */,
 				4E2DA1D61EF1096900451A84 /* SCNView.md */,
+				4E7889251EF233C2006AFC29 /* SCNNode.md */,
 			);
 			path = Markdown;
+			sourceTree = "<group>";
+		};
+		4E7889201EF21EDB006AFC29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E7889211EF21EF3006AFC29 /* SceneTableViewController.swift */,
+				4E7889231EF22256006AFC29 /* KBSceneViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +177,8 @@
 				4E3469501EE912A400248C07 /* ViewController.swift in Sources */,
 				4E34694E1EE912A400248C07 /* AppDelegate.swift in Sources */,
 				4E9037F81EEA91B5009C743A /* Molecules.swift in Sources */,
+				4E7889241EF22256006AFC29 /* KBSceneViewController.swift in Sources */,
+				4E7889221EF21EF3006AFC29 /* SceneTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
